@@ -1,0 +1,54 @@
+.bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+  }
+
+  .bd-mode-toggle {
+	z-index: 1500;
+  }
+
+  .bd-mode-toggle .dropdown-menu .active .bi {
+	display: block !important;
+  }
+
+  .text-multi-color{
+    background: #212529;
+    background: linear-gradient(#cd3396,#4795f1);
+    
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+
+
+  .animacion{
+    animation: titilear 1s infinite ;
+  }
+
+  @keyframes titilear {
+    0%{
+      background: #10b981;
+    }
+
+    25%{
+      background: #14b8a6;
+    }
+
+    50%{
+      background: #06b6d4;
+    }
+
+    75%{
+      background: #0ea5e9;
+    }
+    100%{
+      background: #3b82f6;
+    }
+  }
+
+  .foto{
+    object-fit: cover;
+    width: 100px;
+    background-color: transparent;
+}
